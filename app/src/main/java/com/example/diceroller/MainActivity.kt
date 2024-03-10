@@ -67,6 +67,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier.fillMaxSize(1f)){
         5 -> painterResource(id = R.drawable.dice_5)
         else -> painterResource(id = R.drawable.dice_6)
     }
+
     Box {
         Image(painter = painterResource(R.drawable.dice_roller_background),
             contentDescription = null,
